@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/moviedb
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+     ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: "your-256-bit-secret-your-256-bit-secret-1234" # Must be at least 32 chars
+  expiration: 3600000 # 1 hour in milliseconds
