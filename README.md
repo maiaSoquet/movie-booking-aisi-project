@@ -11,9 +11,7 @@ Systems Interoperability project at Algebra Bernays University (2025/2026).
 - `camunda/` – BPMN process diagram for the Camunda 8 workflow
 
 ## How to run
---Prerequisites--------------------------------------------------------------------------------
-
-Before running anything, make sure you have the following installed on your machine:
+Prerequisites : Before running anything, make sure you have the following installed on your machine:
 - Java 21+ (Eclipse Temurin JDK recommended)
 - Maven
 -	MySQL 8.0
