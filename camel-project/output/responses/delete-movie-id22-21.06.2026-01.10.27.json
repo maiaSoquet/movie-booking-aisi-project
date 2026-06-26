@@ -1,0 +1,9 @@
+{
+  "capturedAt" : "2026-06-21T01:10:27.0461731",
+  "routeId" : "delete-movie",
+  "httpMethod" : "DELETE",
+  "endpoint" : "http://localhost:8080/api/movies/22",
+  "httpStatus" : 200,
+  "deletedId" : 22,
+  "note" : "DELETE returns 204 No Content — no response body from backend"
+}

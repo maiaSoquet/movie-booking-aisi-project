@@ -1,0 +1,80 @@
+{
+  "capturedAt" : "2026-06-21T01:05:10.0563341",
+  "routeId" : "get-all-movies-proxy-consumer",
+  "httpMethod" : "GET",
+  "endpoint" : "http://localhost:8080/api/movies/getallmovies",
+  "httpStatus" : 200,
+  "response" : [ {
+    "id" : 1,
+    "name" : "Pride and Prejudice",
+    "description" : "In Regency England, Elizabeth Bennet navigates societal pressures, family drama, and her own prejudices against the wealthy, seemingly arrogant Mr.Darcy before finding true love",
+    "genre" : "romance",
+    "duration" : 127,
+    "releaseDate" : "2005-09-11",
+    "language" : "English"
+  }, {
+    "id" : 2,
+    "name" : "Spider-Man: into the Spider-Verse",
+    "description" : "A Broolyn teen, Miles Morales, gains superpowers and must succeed Peter Parker as Spider-Man after KingPin murders him.",
+    "genre" : "action",
+    "duration" : 117,
+    "releaseDate" : "2018-12-14",
+    "language" : "English"
+  }, {
+    "id" : 13,
+    "name" : "American History X",
+    "description" : "Two American skinhead brothers from Los Angeles are involved in the White Supremacist movement. After serving 3 years in prison, one of them tries to prevent the other from being even more indoctrinated",
+    "genre" : "drama",
+    "duration" : 119,
+    "releaseDate" : "1998-11-20",
+    "language" : "English"
+  }, {
+    "id" : 17,
+    "name" : "My Life as a Zucchini",
+    "description" : " A little 9-year-old boy nicknamed Zucchini accidentally kills his negligent, abusive, alcoholic mother. He is sent to an orphanage where he will have to live with other strange kids like him ",
+    "genre" : "drama",
+    "duration" : 117,
+    "releaseDate" : "2018-12-14",
+    "language" : "French"
+  }, {
+    "id" : 18,
+    "name" : "Forrest Gump",
+    "description" : " The film follows the life of an Alabama man named Forrest Gump (Hanks) and his experiences in the 20th-century United States. ",
+    "genre" : "comedy-drama",
+    "duration" : 142,
+    "releaseDate" : "1994-06-23",
+    "language" : "English"
+  }, {
+    "id" : 19,
+    "name" : "Hidden Figures",
+    "description" : " Three femal African-American mathematicians, Katherine Goble Johnson, Dorothy Vaughan and Mary Jackson, work at NASA during the Space Race in the 1950s and 1960s ",
+    "genre" : "biographical drama",
+    "duration" : 126,
+    "releaseDate" : "2016-12-10",
+    "language" : "English"
+  }, {
+    "id" : 21,
+    "name" : "Slumdog millionaire",
+    "description" : "Updated via Proxy",
+    "genre" : null,
+    "duration" : null,
+    "releaseDate" : null,
+    "language" : null
+  }, {
+    "id" : 22,
+    "name" : "The green mile",
+    "description" : "Proxied via ActiveMQ",
+    "genre" : null,
+    "duration" : null,
+    "releaseDate" : null,
+    "language" : null
+  }, {
+    "id" : 23,
+    "name" : "The green mile",
+    "description" : " It stars Tom Hanks as a death row correctional officer during the Great Depression who witnesses supernatural events following the arrival of an enigmatic convict at his facility ",
+    "genre" : "fantasy drama",
+    "duration" : 189,
+    "releaseDate" : "1999-12-10",
+    "language" : "English"
+  } ]
+}

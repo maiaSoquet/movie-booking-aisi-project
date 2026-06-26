@@ -1,0 +1,16 @@
+{
+  "capturedAt" : "2026-06-21T12:23:41.5185689",
+  "routeId" : "create-movie-proxy-consumer",
+  "httpMethod" : "POST",
+  "endpoint" : "http://localhost:8080/api/movies/addmovie",
+  "httpStatus" : 200,
+  "response" : {
+    "id" : 24,
+    "name" : "Slumdog millionaire",
+    "description" : " It narrates the story of Jamal Malik from the Juhu slums of Mumbai ",
+    "genre" : "drama",
+    "duration" : 120,
+    "releaseDate" : "2008-08-30",
+    "language" : "English"
+  }
+}
