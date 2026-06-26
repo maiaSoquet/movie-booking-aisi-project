@@ -1,0 +1,13 @@
+{
+  "namespace": "hr.algebra.project.s0273.avro",
+  "type": "record",
+  "name": "MovieWatchSensor",
+  "fields": [
+    { "name": "viewerId", "type": "string" },
+    { "name": "country", "type": "string" },
+    { "name": "watchDuration", "type": "double" },
+    { "name": "completionRate", "type": "double" },
+    { "name": "timestamp", "type": { "type": "long", "logicalType": "timestamp-millis" } },
+    { "name": "movieTitle", "type": "string" }
+  ]
+}

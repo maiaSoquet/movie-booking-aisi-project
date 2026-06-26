@@ -1,0 +1,16 @@
+{
+  "capturedAt" : "2026-06-21T01:08:28.6884921",
+  "routeId" : "update-movie-proxy-consumer",
+  "httpMethod" : "PUT",
+  "endpoint" : "http://localhost:8080/api/moviesupdatemovie/23",
+  "httpStatus" : 200,
+  "response" : {
+    "id" : 23,
+    "name" : "The green mile-update",
+    "description" : " It stars Tom Hanks as a death row correctional officer during the Great Depression who witnesses supernatural events following the arrival of an enigmatic convict at his facility ",
+    "genre" : "fantasy drama",
+    "duration" : 189,
+    "releaseDate" : "1999-12-10",
+    "language" : "English"
+  }
+}

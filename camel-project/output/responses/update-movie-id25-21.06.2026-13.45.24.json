@@ -1,0 +1,16 @@
+{
+  "capturedAt" : "2026-06-21T13:45:24.4018739",
+  "routeId" : "update-movie-proxy-consumer",
+  "httpMethod" : "PUT",
+  "endpoint" : "http://localhost:8080/api/moviesupdatemovie/25",
+  "httpStatus" : 200,
+  "response" : {
+    "id" : 25,
+    "name" : "Amélie (the fabulous destiny of Amélie Poulain)",
+    "description" : " Amélie Poulain, a shy and quirky waitress, decides to change the life of those around her for the better while she deals with her own isolation ",
+    "genre" : "romantic comedy",
+    "duration" : 123,
+    "releaseDate" : "2001-04-25",
+    "language" : "French"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "capturedAt" : "2026-06-21T12:38:12.3465843",
+  "routeId" : "create-movie-proxy-consumer",
+  "httpMethod" : "POST",
+  "endpoint" : "http://localhost:8080/api/movies/addmovie",
+  "httpStatus" : 200,
+  "response" : {
+    "id" : 25,
+    "name" : "Amélie",
+    "description" : " Amélie Poulain, a shy and quirky waitress, decides to change the life of those around her for the better while she deals with her own isolation ",
+    "genre" : "romantic comedy",
+    "duration" : 123,
+    "releaseDate" : "2001-04-25",
+    "language" : "French"
+  }
+}

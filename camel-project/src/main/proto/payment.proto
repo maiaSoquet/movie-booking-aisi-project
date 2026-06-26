@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package hr.algebra.project.s0273.proto;
+
+option java_package = "hr.algebra.project.s0273.proto";
+option java_outer_classname = "BookingProto";
+option java_multiple_files = true;
+
+
+enum BookingStatus {
+  PENDING = 0;
+  CONFIRMED = 1;
+  CANCELLED = 2;
+}
+
+message BookingEvent {
+  string bookingId = 1;
+  BookingStatus status = 2;
+
+  int32 movieId = 3;
+  string movieTitle = 4;
+  string description = 5;
+  string genre = 6;
+  int32 duration = 7;
+  string releaseDate = 8;
+  string language = 9;
+}
